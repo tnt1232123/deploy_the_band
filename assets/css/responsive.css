@@ -1,0 +1,38 @@
+@media (min-width:769px){
+    #mobile-menu{
+        display: none;
+    }
+}
+@media (max-width:768px){
+    #header .search-btn{
+        display: none;
+    }
+    #header{
+        overflow: hidden;  
+    }
+    #nav > li {
+        display: block;
+    }
+    #content .member-item{
+        width: 100%;
+    }
+    #content .member-item p{
+        margin-top: 31px;
+    }
+    .tour-item{
+        width: 100%;
+    }
+    .half-content{
+        width: 100%;
+    }
+    .right-content{
+        padding-left: 0px;
+    }
+    .left-content{
+        padding-right: 0px;
+        margin-top: 16px;
+    }
+    .content-about{
+        margin-bottom: -31px;
+    }
+}
